@@ -41,7 +41,7 @@ print("ARGENTINA    54")
 print("PHLPNES      63")
 print("\033[1;33;40m\n")
 time.sleep(1)
-x =input("TULISEN NOMER HPne:  ")
+x =input("TULISEN NOMER HPne:")
 if len(str(x)) ==12:
 	print("connecting")
 	os.system("clear")
